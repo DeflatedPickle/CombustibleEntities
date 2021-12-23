@@ -33,10 +33,6 @@ dependencies {
 	modImplementation "com.terraformersmc:modmenu:${modmenu_version}"
 }
 
-loom {
-	accessWidenerPath = file("src/main/resources/${archives_base_name}.accesswidener")
-}
-
 compileJava {
 	options.encoding = "UTF-8"
 	sourceCompatibility = targetCompatibility = project.java_version
